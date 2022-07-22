@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facade xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.app</package>
+    <name>GLRptCompositeFacade</name>
+    <alias>facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].alias</alias>
+    <description>facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].description</description>
+    <userDefined>true</userDefined>
+    <bosType>8A5BA895</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.custom.GLRptCompositeFacade</businessImplName>
+    <businessControllerName>com.kingdee.eas.custom.app.GLRptCompositeFacadeController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>getQueryInitData</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[getQueryInitData].alias</alias>
+            <description>facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[getQueryInitData].description</description>
+            <innerID>1786b07d-1842-4ee9-97a3-8725af135fbd</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.eas.fi.gl.rpt.GLRptQueryInitData</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>isSupportUnion</name>
+                    <alias>facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[getQueryInitData].parameters.parameter[isSupportUnion].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[getQueryInitData].parameters.parameter[isSupportUnion].description</description>
+                    <direction>in</direction>
+                    <dataType>Boolean</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <exceptions>
+                <bizException>
+                    <key name="package" value="com.kingdee.eas.common" />
+                    <key name="name" value="EASBizException" />
+                </bizException>
+            </exceptions>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getQueryInitData</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[getQueryInitData].alias</alias>
+            <description>facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[getQueryInitData].description</description>
+            <innerID>19fccc66-ed9b-4e78-a8bb-f2cdbb40adbe</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.eas.fi.gl.rpt.GLRptQueryInitData</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>companyIds</name>
+                    <alias>facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[getQueryInitData].parameters.parameter[companyIds].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[getQueryInitData].parameters.parameter[companyIds].description</description>
+                    <direction>in</direction>
+                    <dataType>java.util.List</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>isSupportUnion</name>
+                    <alias>facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[getQueryInitData].parameters.parameter[isSupportUnion].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[getQueryInitData].parameters.parameter[isSupportUnion].description</description>
+                    <direction>in</direction>
+                    <dataType>Boolean</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <exceptions>
+                <bizException>
+                    <key name="package" value="com.kingdee.eas.common" />
+                    <key name="name" value="EASBizException" />
+                </bizException>
+            </exceptions>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>expendRow</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[expendRow].alias</alias>
+            <description>facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[expendRow].description</description>
+            <innerID>e1b9f723-0435-426b-8531-15e079d35998</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>Integer</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>queryId</name>
+                    <alias>facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[expendRow].parameters.parameter[queryId].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[expendRow].parameters.parameter[queryId].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>rowIndex</name>
+                    <alias>facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[expendRow].parameters.parameter[rowIndex].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[expendRow].parameters.parameter[rowIndex].description</description>
+                    <direction>in</direction>
+                    <dataType>Integer</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <exceptions>
+                <bizException>
+                    <key name="package" value="com.kingdee.eas.common" />
+                    <key name="name" value="EASBizException" />
+                </bizException>
+            </exceptions>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>expendAllRow</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[expendAllRow].alias</alias>
+            <description>facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[expendAllRow].description</description>
+            <innerID>6eac9aba-d0ae-48ee-8bc7-82bb109767bf</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>Integer</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>queryId</name>
+                    <alias>facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[expendAllRow].parameters.parameter[queryId].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[expendAllRow].parameters.parameter[queryId].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>rowIndex</name>
+                    <alias>facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[expendAllRow].parameters.parameter[rowIndex].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[expendAllRow].parameters.parameter[rowIndex].description</description>
+                    <direction>in</direction>
+                    <dataType>Integer</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <exceptions>
+                <bizException>
+                    <key name="package" value="com.kingdee.eas.common" />
+                    <key name="name" value="EASBizException" />
+                </bizException>
+            </exceptions>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>shrinkRow</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[shrinkRow].alias</alias>
+            <description>facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[shrinkRow].description</description>
+            <innerID>1673cb3c-08af-4fd0-92c6-a735bc424a96</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>Integer</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>queryId</name>
+                    <alias>facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[shrinkRow].parameters.parameter[queryId].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[shrinkRow].parameters.parameter[queryId].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>rowIndex</name>
+                    <alias>facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[shrinkRow].parameters.parameter[rowIndex].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[shrinkRow].parameters.parameter[rowIndex].description</description>
+                    <direction>in</direction>
+                    <dataType>Integer</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <exceptions>
+                <bizException>
+                    <key name="package" value="com.kingdee.eas.common" />
+                    <key name="name" value="EASBizException" />
+                </bizException>
+            </exceptions>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>relaseDataSource</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[relaseDataSource].alias</alias>
+            <description>facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[relaseDataSource].description</description>
+            <innerID>805c12c7-cf5a-4adb-8512-300bea76ebd2</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>queryId</name>
+                    <alias>facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[relaseDataSource].parameters.parameter[queryId].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[relaseDataSource].parameters.parameter[queryId].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getPeriodRange</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[getPeriodRange].alias</alias>
+            <description>facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[getPeriodRange].description</description>
+            <innerID>0aede798-fe04-443c-94c6-ec442f57630c</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>java.util.Map</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>companyIdSet</name>
+                    <alias>facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[getPeriodRange].parameters.parameter[companyIdSet].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[getPeriodRange].parameters.parameter[companyIdSet].description</description>
+                    <direction>in</direction>
+                    <dataType>java.util.Set</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>periodTypeId</name>
+                    <alias>facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[getPeriodRange].parameters.parameter[periodTypeId].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[getPeriodRange].parameters.parameter[periodTypeId].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <exceptions>
+                <bizException>
+                    <key name="package" value="com.kingdee.eas.common" />
+                    <key name="name" value="EASBizException" />
+                </bizException>
+            </exceptions>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <baseFacade>
+        <key name="package" value="com.kingdee.eas.framework.report.app" />
+        <key name="name" value="CommRptBase" />
+    </baseFacade>
+    <resource>
+        <rs key="facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="综合查询功能" />
+            <lang locale="zh_HK" value="綜合查詢功能" />
+            <lang locale="zh_TW" value="綜合查詢功能" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="综合查询功能" />
+            <lang locale="zh_HK" value="綜合查詢功能" />
+            <lang locale="zh_TW" value="綜合查詢功能" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[expendAllRow].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="展开所有下级" />
+            <lang locale="zh_HK" value="展開所有下級" />
+            <lang locale="zh_TW" value="展開所有下級" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[expendAllRow].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="展开所有下级" />
+            <lang locale="zh_HK" value="展開所有下級" />
+            <lang locale="zh_TW" value="展開所有下級" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[expendAllRow].parameters.parameter[queryId].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="查询标识" />
+            <lang locale="zh_HK" value="查詢標識" />
+            <lang locale="zh_TW" value="查詢標識" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[expendAllRow].parameters.parameter[queryId].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[expendAllRow].parameters.parameter[rowIndex].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="行号" />
+            <lang locale="zh_HK" value="行號" />
+            <lang locale="zh_TW" value="行號" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[expendAllRow].parameters.parameter[rowIndex].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[expendRow].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="展开直接下级" />
+            <lang locale="zh_HK" value="展開直接下級" />
+            <lang locale="zh_TW" value="展開直接下級" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[expendRow].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="展开直接下级" />
+            <lang locale="zh_HK" value="展開直接下級" />
+            <lang locale="zh_TW" value="展開直接下級" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[expendRow].parameters.parameter[queryId].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="查询标识" />
+            <lang locale="zh_HK" value="查詢標識" />
+            <lang locale="zh_TW" value="查詢標識" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[expendRow].parameters.parameter[queryId].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[expendRow].parameters.parameter[rowIndex].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="行号" />
+            <lang locale="zh_HK" value="行號" />
+            <lang locale="zh_TW" value="行號" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[expendRow].parameters.parameter[rowIndex].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[getPeriodRange].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="获取期间范围" />
+            <lang locale="zh_HK" value="獲取期間範圍" />
+            <lang locale="zh_TW" value="獲取期間範圍" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[getPeriodRange].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="获取期间范围" />
+            <lang locale="zh_HK" value="獲取期間範圍" />
+            <lang locale="zh_TW" value="獲取期間範圍" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[getPeriodRange].parameters.parameter[companyIdSet].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="公司ID集合" />
+            <lang locale="zh_HK" value="公司ID集合" />
+            <lang locale="zh_TW" value="公司ID集合" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[getPeriodRange].parameters.parameter[companyIdSet].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[getPeriodRange].parameters.parameter[periodTypeId].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="期间类型ID" />
+            <lang locale="zh_HK" value="期間類型ID" />
+            <lang locale="zh_TW" value="期間類型ID" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[getPeriodRange].parameters.parameter[periodTypeId].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[getQueryInitData].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="获取查询初始化数据" />
+            <lang locale="zh_HK" value="獲取查詢初始化數據" />
+            <lang locale="zh_TW" value="獲取查詢初始化數據" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[getQueryInitData].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="获取查询初始化数据" />
+            <lang locale="zh_HK" value="獲取查詢初始化數據" />
+            <lang locale="zh_TW" value="獲取查詢初始化數據" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[getQueryInitData].parameters.parameter[companyIds].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="公司集合" />
+            <lang locale="zh_HK" value="公司集合" />
+            <lang locale="zh_TW" value="公司集合" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[getQueryInitData].parameters.parameter[companyIds].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[getQueryInitData].parameters.parameter[isSupportUnion].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="isSupportUnion" />
+            <lang locale="zh_HK" value="isSupportUnion" />
+            <lang locale="zh_TW" value="isSupportUnion" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[getQueryInitData].parameters.parameter[isSupportUnion].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[relaseDataSource].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="释放泪师表及服务端会话缓存" />
+            <lang locale="zh_HK" value="釋放淚師表及服務端會話緩存" />
+            <lang locale="zh_TW" value="釋放淚師表及服務端會話緩存" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[relaseDataSource].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="释放泪师表及服务端会话缓存" />
+            <lang locale="zh_HK" value="釋放淚師表及服務端會話緩存" />
+            <lang locale="zh_TW" value="釋放淚師表及服務端會話緩存" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[relaseDataSource].parameters.parameter[queryId].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="查询标识" />
+            <lang locale="zh_HK" value="查詢標識" />
+            <lang locale="zh_TW" value="查詢標識" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[relaseDataSource].parameters.parameter[queryId].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[shrinkRow].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="收缩行" />
+            <lang locale="zh_HK" value="收縮行" />
+            <lang locale="zh_TW" value="收縮行" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[shrinkRow].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="收缩行" />
+            <lang locale="zh_HK" value="收縮行" />
+            <lang locale="zh_TW" value="收縮行" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[shrinkRow].parameters.parameter[queryId].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="查询标识" />
+            <lang locale="zh_HK" value="查詢標識" />
+            <lang locale="zh_TW" value="查詢標識" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[shrinkRow].parameters.parameter[queryId].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[shrinkRow].parameters.parameter[rowIndex].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="行号" />
+            <lang locale="zh_HK" value="行號" />
+            <lang locale="zh_TW" value="行號" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.GLRptCompositeFacade].methods.method[shrinkRow].parameters.parameter[rowIndex].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</facade>
+

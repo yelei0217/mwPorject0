@@ -1,0 +1,1170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entityObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.app</package>
+    <name>SupplySyncLog</name>
+    <alias>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].alias</alias>
+    <description>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].description</description>
+    <userDefined>true</userDefined>
+    <bosType>65E31895</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.custom.SupplySyncLog</businessImplName>
+    <businessControllerName>com.kingdee.eas.custom.app.SupplySyncLogController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].methods.method[getValue].description</description>
+            <innerID>7394081f-9952-496b-b6d4-3d2750acf498</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.app.SupplySyncLog</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].methods.method[getValue].description</description>
+            <innerID>e63402d8-f883-4d58-8e61-e94e12db980a</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.app.SupplySyncLog</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>selector</name>
+                    <alias>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].methods.method[getValue].parameters.parameter[selector].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].methods.method[getValue].parameters.parameter[selector].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SelectorItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].methods.method[getValue].description</description>
+            <innerID>f9407b58-334f-4316-896d-e902b04444d4</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.app.SupplySyncLog</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].methods.method[getValue].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].methods.method[getValue].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].methods.method[getCollection].description</description>
+            <innerID>2a945fea-df80-4ad7-a2c9-675010574178</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.app.SupplySyncLog</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].methods.method[getCollection].description</description>
+            <innerID>1221b32d-350a-4e5a-8109-29a8fae53c04</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.app.SupplySyncLog</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>view</name>
+                    <alias>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].methods.method[getCollection].parameters.parameter[view].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].methods.method[getCollection].parameters.parameter[view].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.EntityViewInfo</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].methods.method[getCollection].description</description>
+            <innerID>87211821-314e-4729-a4ff-ca88ddc13ac0</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.app.SupplySyncLog</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].methods.method[getCollection].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].methods.method[getCollection].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <isAbstract>false</isAbstract>
+    <bizUnitPK>com.kingdee.eas.custom.SupplySyncLog</bizUnitPK>
+    <baseEntity>
+        <key name="package" value="com.kingdee.eas.framework.app" />
+        <key name="name" value="DataBase" />
+    </baseEntity>
+    <table>
+        <key name="package" value="com.kingdee.eas.custom.app" />
+        <key name="name" value="CT_CUS_SupplySyncLog" />
+    </table>
+    <properties>
+        <ownProperty>
+            <name>dateBaseType</name>
+            <alias>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[dateBaseType].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[dateBaseType].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Enum</dataType>
+            <metadataRef>com.kingdee.eas.custom.app.DateBasetype</metadataRef>
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>80</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[dateBaseType].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFDateBaseType" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>status</name>
+            <alias>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[status].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[status].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Boolean</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>1</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[status].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFStatus" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>version</name>
+            <alias>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[version].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[version].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[version].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFVersion" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>updatetime</name>
+            <alias>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[updatetime].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[updatetime].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Time</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>8</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[updatetime].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFUpdatetime" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>updateDate</name>
+            <alias>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[updateDate].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[updateDate].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Date</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>8</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[updateDate].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFUpdateDate" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>processType</name>
+            <alias>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[processType].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[processType].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Enum</dataType>
+            <metadataRef>com.kingdee.eas.custom.app.DateBaseProcessType</metadataRef>
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>80</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[processType].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFProcessType" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>Message</name>
+            <alias>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[Message].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[Message].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[Message].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFMessage" />
+            </mappingField>
+        </ownProperty>
+    </properties>
+    <logicalKey>
+        <name>id</name>
+        <alias>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].logicalKey[id].alias</alias>
+        <description>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].logicalKey[id].description</description>
+        <keyClass>com.kingdee.bos.dao.IObjectPK</keyClass>
+        <userDefined>true</userDefined>
+        <keyProperties>
+            <baseProperty>
+                <key name="name" value="id" />
+            </baseProperty>
+        </keyProperties>
+    </logicalKey>
+    <events>
+        <event>
+            <name>PurvspJDFromOA</name>
+            <alias>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].events.event[PurvspJDFromOA].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].events.event[PurvspJDFromOA].description</description>
+            <userDefined>true</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>925e4f6d-33b0-4273-91bf-517275678c23</name>
+                    <alias>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].events.event[PurvspJDFromOA].eventMethods.eventMethod[925e4f6d-33b0-4273-91bf-517275678c23].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].events.event[PurvspJDFromOA].eventMethods.eventMethod[925e4f6d-33b0-4273-91bf-517275678c23].description</description>
+                    <facadeRef>
+                        <key name="package" value="com.kingdee.eas.custom.app" />
+                        <key name="name" value="BusinessFormOA" />
+                    </facadeRef>
+                    <facadeMethodRef>
+                        <key name="name" value="PurvspJDFromOA" />
+                        <key name="innerID" value="925e4f6d-33b0-4273-91bf-517275678c23" />
+                    </facadeMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].events.event[PurvspJDFromOA].eventMethods.eventMethod[925e4f6d-33b0-4273-91bf-517275678c23].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].events.event[PurvspJDFromOA].eventMethods.eventMethod[925e4f6d-33b0-4273-91bf-517275678c23].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID />
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>false</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>b5cba854-568c-4dc7-a265-7aec3b9ae5baevfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>dataBase</name>
+                        <alias>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].events.event[PurvspJDFromOA].formalParameters.formalParameter.parameter[dataBase].alias</alias>
+                        <description>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].events.event[PurvspJDFromOA].formalParameters.formalParameter.parameter[dataBase].description</description>
+                        <direction>in</direction>
+                        <dataType>String</dataType>
+                        <metadataRef />
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>ReceConfirmVSPJD</name>
+            <alias>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].events.event[ReceConfirmVSPJD].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].events.event[ReceConfirmVSPJD].description</description>
+            <userDefined>true</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>cb8dccf7-7c06-458e-9e95-e99f1a1cef90</name>
+                    <alias>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].events.event[ReceConfirmVSPJD].eventMethods.eventMethod[cb8dccf7-7c06-458e-9e95-e99f1a1cef90].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].events.event[ReceConfirmVSPJD].eventMethods.eventMethod[cb8dccf7-7c06-458e-9e95-e99f1a1cef90].description</description>
+                    <facadeRef>
+                        <key name="package" value="com.kingdee.eas.custom.app" />
+                        <key name="name" value="BusinessFormOA" />
+                    </facadeRef>
+                    <facadeMethodRef>
+                        <key name="name" value="ReceConfirmVSPJD" />
+                        <key name="innerID" value="cb8dccf7-7c06-458e-9e95-e99f1a1cef90" />
+                    </facadeMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].events.event[ReceConfirmVSPJD].eventMethods.eventMethod[cb8dccf7-7c06-458e-9e95-e99f1a1cef90].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].events.event[ReceConfirmVSPJD].eventMethods.eventMethod[cb8dccf7-7c06-458e-9e95-e99f1a1cef90].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID />
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>false</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>2437fa3b-1f3d-4555-af18-8d4caa58eafdevfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>dataBase</name>
+                        <alias>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].events.event[ReceConfirmVSPJD].formalParameters.formalParameter.parameter[dataBase].alias</alias>
+                        <description>entityObject[com.kingdee.eas.custom.app.SupplySyncLog].events.event[ReceConfirmVSPJD].formalParameters.formalParameter.parameter[dataBase].description</description>
+                        <direction>in</direction>
+                        <dataType>String</dataType>
+                        <metadataRef />
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+    </events>
+    <resource>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="供货价格同步日志" />
+            <lang locale="zh_HK" value="供貨價格同步日誌" />
+            <lang locale="zh_TW" value="供貨價格同步日誌" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="單級基礎資料範本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].events.event[PurvspJDFromOA].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="京东慧采-采购申请" />
+            <lang locale="zh_HK" value="京東慧采-採購申請" />
+            <lang locale="zh_TW" value="京東慧采-採購申請" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].events.event[PurvspJDFromOA].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="京东慧采-采购申请" />
+            <lang locale="zh_HK" value="京東慧采-採購申請" />
+            <lang locale="zh_TW" value="京東慧采-採購申請" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].events.event[PurvspJDFromOA].eventMethods.eventMethod[925e4f6d-33b0-4273-91bf-517275678c23].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].events.event[PurvspJDFromOA].eventMethods.eventMethod[925e4f6d-33b0-4273-91bf-517275678c23].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].events.event[PurvspJDFromOA].eventMethods.eventMethod[925e4f6d-33b0-4273-91bf-517275678c23].parameterMappings.parameterMappingalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].events.event[PurvspJDFromOA].eventMethods.eventMethod[925e4f6d-33b0-4273-91bf-517275678c23].parameterMappings.parameterMappingdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].events.event[PurvspJDFromOA].formalParameters.formalParameter.parameter[dataBase].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].events.event[PurvspJDFromOA].formalParameters.formalParameter.parameter[dataBase].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].events.event[ReceConfirmVSPJD].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="京东慧采-收货确认" />
+            <lang locale="zh_HK" value="京東慧采-收貨確認" />
+            <lang locale="zh_TW" value="京東慧采-收貨確認" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].events.event[ReceConfirmVSPJD].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="京东慧采-收货确认" />
+            <lang locale="zh_HK" value="京東慧采-收貨確認" />
+            <lang locale="zh_TW" value="京東慧采-收貨確認" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].events.event[ReceConfirmVSPJD].eventMethods.eventMethod[cb8dccf7-7c06-458e-9e95-e99f1a1cef90].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].events.event[ReceConfirmVSPJD].eventMethods.eventMethod[cb8dccf7-7c06-458e-9e95-e99f1a1cef90].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].events.event[ReceConfirmVSPJD].eventMethods.eventMethod[cb8dccf7-7c06-458e-9e95-e99f1a1cef90].parameterMappings.parameterMappingalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].events.event[ReceConfirmVSPJD].eventMethods.eventMethod[cb8dccf7-7c06-458e-9e95-e99f1a1cef90].parameterMappings.parameterMappingdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].events.event[ReceConfirmVSPJD].formalParameters.formalParameter.parameter[dataBase].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].events.event[ReceConfirmVSPJD].formalParameters.formalParameter.parameter[dataBase].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].extendedProperty.OrgType">
+            <lang locale="en_US" value="NONE" />
+            <lang locale="zh_CN" value="NONE" />
+            <lang locale="zh_TW" value="NONE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].extendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].extendedProperty.defaultDisplayField">
+            <lang locale="en_US" value="name" />
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].extendedProperty.defaultF7Query">
+            <lang locale="en_US" value="com.kingdee.eas.custom.app.SupplySyncLogQuery" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.app.SupplySyncLogQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.app.SupplySyncLogQuery" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].extendedProperty.editUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.client.SupplySyncLogEditUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.client.SupplySyncLogEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.client.SupplySyncLogEditUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].extendedProperty.isParamObject">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].extendedProperty.isSimpleEntity">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].extendedProperty.listUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.client.SupplySyncLogListUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.client.SupplySyncLogListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.client.SupplySyncLogListUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].logicalKey[id].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].logicalKey[id].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].methods.method[getCollection].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].methods.method[getCollection].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].methods.method[getCollection].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].methods.method[getCollection].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].methods.method[getCollection].parameters.parameter[view].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].methods.method[getCollection].parameters.parameter[view].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].methods.method[getValue].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].methods.method[getValue].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].methods.method[getValue].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].methods.method[getValue].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].methods.method[getValue].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].methods.method[getValue].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].methods.method[getValue].parameters.parameter[selector].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].methods.method[getValue].parameters.parameter[selector].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[Message].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="异常信息" />
+            <lang locale="zh_HK" value="異常信息" />
+            <lang locale="zh_TW" value="異常信息" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[Message].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[Message].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="异常信息" />
+            <lang locale="zh_HK" value="異常信息" />
+            <lang locale="zh_TW" value="異常信息" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[Message].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[Message].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[Message].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[Message].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[Message].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[Message].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[Message].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[Message].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[Message].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[Message].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[dateBaseType].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="数据类型" />
+            <lang locale="zh_HK" value="數據類型" />
+            <lang locale="zh_TW" value="數據類型" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[dateBaseType].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="orgUnit" />
+            <lang locale="zh_HK" value="orgUnit" />
+            <lang locale="zh_TW" value="orgUnit" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[dateBaseType].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="数据类型" />
+            <lang locale="zh_HK" value="數據類型" />
+            <lang locale="zh_TW" value="數據類型" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[dateBaseType].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[dateBaseType].extendedProperty.bizDataType">
+            <lang locale="en_US" value="ENUM" />
+            <lang locale="zh_CN" value="ENUM" />
+            <lang locale="zh_TW" value="ENUM" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[dateBaseType].extendedProperty.defaultValue">
+            <lang locale="en_US" value="orgUnit" />
+            <lang locale="zh_CN" value="orgUnit" />
+            <lang locale="zh_TW" value="orgUnit" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[dateBaseType].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[dateBaseType].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[dateBaseType].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[dateBaseType].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[dateBaseType].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[dateBaseType].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[dateBaseType].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[dateBaseType].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[processType].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="处理类型" />
+            <lang locale="zh_HK" value="處理類型" />
+            <lang locale="zh_TW" value="處理類型" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[processType].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="Update" />
+            <lang locale="zh_HK" value="Update" />
+            <lang locale="zh_TW" value="Update" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[processType].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="处理类型" />
+            <lang locale="zh_HK" value="處理類型" />
+            <lang locale="zh_TW" value="處理類型" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[processType].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[processType].extendedProperty.bizDataType">
+            <lang locale="en_US" value="ENUM" />
+            <lang locale="zh_CN" value="ENUM" />
+            <lang locale="zh_TW" value="ENUM" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[processType].extendedProperty.defaultValue">
+            <lang locale="en_US" value="Update" />
+            <lang locale="zh_CN" value="Update" />
+            <lang locale="zh_TW" value="Update" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[processType].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[processType].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[processType].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[processType].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[processType].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[processType].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[processType].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[processType].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[status].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="同步状态" />
+            <lang locale="zh_HK" value="同步狀態" />
+            <lang locale="zh_TW" value="同步狀態" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[status].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="同步状态" />
+            <lang locale="zh_HK" value="同步狀態" />
+            <lang locale="zh_TW" value="同步狀態" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[status].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="同步状态" />
+            <lang locale="zh_HK" value="同步狀態" />
+            <lang locale="zh_TW" value="同步狀態" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[status].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[status].extendedProperty.bizDataType">
+            <lang locale="en_US" value="BOOLEAN" />
+            <lang locale="zh_CN" value="BOOLEAN" />
+            <lang locale="zh_TW" value="BOOLEAN" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[status].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[status].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[status].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[status].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[status].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[status].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[status].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[status].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[updateDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="更新日期" />
+            <lang locale="zh_HK" value="更新日期" />
+            <lang locale="zh_TW" value="更新日期" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[updateDate].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[updateDate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="更新日期" />
+            <lang locale="zh_HK" value="更新日期" />
+            <lang locale="zh_TW" value="更新日期" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[updateDate].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[updateDate].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DATE" />
+            <lang locale="zh_CN" value="DATE" />
+            <lang locale="zh_TW" value="DATE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[updateDate].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[updateDate].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[updateDate].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[updateDate].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[updateDate].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[updateDate].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[updateDate].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[updateDate].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[updatetime].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="同步时间" />
+            <lang locale="zh_HK" value="同步時間" />
+            <lang locale="zh_TW" value="同步時間" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[updatetime].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[updatetime].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="同步时间" />
+            <lang locale="zh_HK" value="同步時間" />
+            <lang locale="zh_TW" value="同步時間" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[updatetime].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[updatetime].extendedProperty.bizDataType">
+            <lang locale="en_US" value="TIME" />
+            <lang locale="zh_CN" value="TIME" />
+            <lang locale="zh_TW" value="TIME" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[updatetime].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[updatetime].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[updatetime].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[updatetime].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[updatetime].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[updatetime].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[updatetime].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[updatetime].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[version].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="版本" />
+            <lang locale="zh_HK" value="版本" />
+            <lang locale="zh_TW" value="版本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[version].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[version].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="版本" />
+            <lang locale="zh_HK" value="版本" />
+            <lang locale="zh_TW" value="版本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[version].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[version].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[version].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[version].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[version].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[version].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[version].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[version].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[version].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.app.SupplySyncLog].properties.ownProperty[version].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</entityObject>
+

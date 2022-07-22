@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facade xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.app</package>
+    <name>BusinessFormOA</name>
+    <alias>facade[com.kingdee.eas.custom.app.BusinessFormOA].alias</alias>
+    <description>facade[com.kingdee.eas.custom.app.BusinessFormOA].description</description>
+    <userDefined>true</userDefined>
+    <bosType>2A0C8EFB</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.custom.BusinessFormOA</businessImplName>
+    <businessControllerName>com.kingdee.eas.custom.app.BusinessFormOAController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>PurRequestFormOA</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[PurRequestFormOA].alias</alias>
+            <description>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[PurRequestFormOA].description</description>
+            <innerID>afb505f8-be24-4558-aae9-04ef0cfa9b9e</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>String</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>database</name>
+                    <alias>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[PurRequestFormOA].parameters.parameter[database].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[PurRequestFormOA].parameters.parameter[database].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>ApOtherFormOA</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[ApOtherFormOA].alias</alias>
+            <description>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[ApOtherFormOA].description</description>
+            <innerID>b267cb18-bd38-4b38-912f-71c8b91fa19a</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>String</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>database</name>
+                    <alias>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[ApOtherFormOA].parameters.parameter[database].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[ApOtherFormOA].parameters.parameter[database].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>PayApplyToOA</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[PayApplyToOA].alias</alias>
+            <description>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[PayApplyToOA].description</description>
+            <innerID>118b5b23-bfc3-476f-be7f-75ecb38409ce</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>String</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>database</name>
+                    <alias>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[PayApplyToOA].parameters.parameter[database].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[PayApplyToOA].parameters.parameter[database].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>billId</name>
+                    <alias>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[PayApplyToOA].parameters.parameter[billId].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[PayApplyToOA].parameters.parameter[billId].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>syncPayApply</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[syncPayApply].alias</alias>
+            <description>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[syncPayApply].description</description>
+            <innerID>de5b87d5-eb41-4368-a0f8-1e435468b92c</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>database</name>
+                    <alias>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[syncPayApply].parameters.parameter[database].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[syncPayApply].parameters.parameter[database].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>mobilePaymentBillBizDate</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[mobilePaymentBillBizDate].alias</alias>
+            <description>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[mobilePaymentBillBizDate].description</description>
+            <innerID>d6015bcf-cac9-46a6-9eb2-368064ad0766</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>ids</name>
+                    <alias>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[mobilePaymentBillBizDate].parameters.parameter[ids].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[mobilePaymentBillBizDate].parameters.parameter[ids].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>date</name>
+                    <alias>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[mobilePaymentBillBizDate].parameters.parameter[date].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[mobilePaymentBillBizDate].parameters.parameter[date].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>type</name>
+                    <alias>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[mobilePaymentBillBizDate].parameters.parameter[type].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[mobilePaymentBillBizDate].parameters.parameter[type].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>syncPaymentBillFormOA</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[syncPaymentBillFormOA].alias</alias>
+            <description>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[syncPaymentBillFormOA].description</description>
+            <innerID>efd54385-205b-4645-bd70-fe3c7d3eedb6</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>String</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>database</name>
+                    <alias>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[syncPaymentBillFormOA].parameters.parameter[database].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[syncPaymentBillFormOA].parameters.parameter[database].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>updateMidPayStatus</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[updateMidPayStatus].alias</alias>
+            <description>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[updateMidPayStatus].description</description>
+            <innerID>13074d96-4ee2-466e-9967-1940fc8bbb97</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>String</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>IsExistDownstreamBill</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[IsExistDownstreamBill].alias</alias>
+            <description>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[IsExistDownstreamBill].description</description>
+            <innerID>a1aa97ae-689d-40b0-acbb-7221bdb61c2c</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>Boolean</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>id</name>
+                    <alias>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[IsExistDownstreamBill].parameters.parameter[id].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[IsExistDownstreamBill].parameters.parameter[id].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>PurvspJDFromOA</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[PurvspJDFromOA].alias</alias>
+            <description>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[PurvspJDFromOA].description</description>
+            <innerID>925e4f6d-33b0-4273-91bf-517275678c23</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>database</name>
+                    <alias>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[PurvspJDFromOA].parameters.parameter[database].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[PurvspJDFromOA].parameters.parameter[database].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>ReceConfirmVSPJD</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[ReceConfirmVSPJD].alias</alias>
+            <description>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[ReceConfirmVSPJD].description</description>
+            <innerID>cb8dccf7-7c06-458e-9e95-e99f1a1cef90</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>database</name>
+                    <alias>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[ReceConfirmVSPJD].parameters.parameter[database].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[ReceConfirmVSPJD].parameters.parameter[database].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <resource>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务单据插入" />
+            <lang locale="zh_HK" value="業務單據插入" />
+            <lang locale="zh_TW" value="業務單據插入" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="获取OA传入的中间表数据插入到EAS系统" />
+            <lang locale="zh_HK" value="獲取OA傳入的中間表數據插入到EAS系統" />
+            <lang locale="zh_TW" value="獲取OA傳入的中間表數據插入到EAS系統" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[ApOtherFormOA].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="保存" />
+            <lang locale="zh_HK" value="保存" />
+            <lang locale="zh_TW" value="保存" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[ApOtherFormOA].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="（其他）应付单" />
+            <lang locale="zh_HK" value="（其他）應付單" />
+            <lang locale="zh_TW" value="（其他）應付單" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[ApOtherFormOA].parameters.parameter[database].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="数据库" />
+            <lang locale="zh_HK" value="資料庫" />
+            <lang locale="zh_TW" value="資料庫" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[ApOtherFormOA].parameters.parameter[database].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[IsExistDownstreamBill].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据是否存在下游单据" />
+            <lang locale="zh_HK" value="單據是否存在下遊單據" />
+            <lang locale="zh_TW" value="單據是否存在下遊單據" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[IsExistDownstreamBill].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[IsExistDownstreamBill].parameters.parameter[id].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="id" />
+            <lang locale="zh_HK" value="id" />
+            <lang locale="zh_TW" value="id" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[IsExistDownstreamBill].parameters.parameter[id].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[PayApplyToOA].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[PayApplyToOA].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="将EAS付款申请单传入到OA的中间表" />
+            <lang locale="zh_HK" value="將EAS付款申請單傳入到OA的中間表" />
+            <lang locale="zh_TW" value="將EAS付款申請單傳入到OA的中間表" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[PayApplyToOA].parameters.parameter[billId].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据id" />
+            <lang locale="zh_HK" value="單據id" />
+            <lang locale="zh_TW" value="單據id" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[PayApplyToOA].parameters.parameter[billId].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[PayApplyToOA].parameters.parameter[database].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="数据库" />
+            <lang locale="zh_HK" value="資料庫" />
+            <lang locale="zh_TW" value="資料庫" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[PayApplyToOA].parameters.parameter[database].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[PurRequestFormOA].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="保存" />
+            <lang locale="zh_HK" value="保存" />
+            <lang locale="zh_TW" value="保存" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[PurRequestFormOA].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="采购申请单" />
+            <lang locale="zh_HK" value="採購申請單" />
+            <lang locale="zh_TW" value="採購申請單" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[PurRequestFormOA].parameters.parameter[database].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="数据库" />
+            <lang locale="zh_HK" value="資料庫" />
+            <lang locale="zh_TW" value="資料庫" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[PurRequestFormOA].parameters.parameter[database].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[PurvspJDFromOA].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="京东慧采" />
+            <lang locale="zh_HK" value="京東慧采" />
+            <lang locale="zh_TW" value="京東慧采" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[PurvspJDFromOA].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="京东慧采" />
+            <lang locale="zh_HK" value="京東慧采" />
+            <lang locale="zh_TW" value="京東慧采" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[PurvspJDFromOA].parameters.parameter[database].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="数据库" />
+            <lang locale="zh_HK" value="資料庫" />
+            <lang locale="zh_TW" value="資料庫" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[PurvspJDFromOA].parameters.parameter[database].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[ReceConfirmVSPJD].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="收货确认单" />
+            <lang locale="zh_HK" value="收貨確認單" />
+            <lang locale="zh_TW" value="收貨確認單" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[ReceConfirmVSPJD].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="收货确认单-京东" />
+            <lang locale="zh_HK" value="收貨確認單-京東" />
+            <lang locale="zh_TW" value="收貨確認單-京東" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[ReceConfirmVSPJD].parameters.parameter[database].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="数据库" />
+            <lang locale="zh_HK" value="資料庫" />
+            <lang locale="zh_TW" value="資料庫" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[ReceConfirmVSPJD].parameters.parameter[database].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[mobilePaymentBillBizDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="修改付款单业务日期" />
+            <lang locale="zh_HK" value="修改付款單業務日期" />
+            <lang locale="zh_TW" value="修改付款單業務日期" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[mobilePaymentBillBizDate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="修改付款单业务日期" />
+            <lang locale="zh_HK" value="修改付款單業務日期" />
+            <lang locale="zh_TW" value="修改付款單業務日期" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[mobilePaymentBillBizDate].parameters.parameter[date].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务日期" />
+            <lang locale="zh_HK" value="業務日期" />
+            <lang locale="zh_TW" value="業務日期" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[mobilePaymentBillBizDate].parameters.parameter[date].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[mobilePaymentBillBizDate].parameters.parameter[ids].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="ids" />
+            <lang locale="zh_HK" value="ids" />
+            <lang locale="zh_TW" value="ids" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[mobilePaymentBillBizDate].parameters.parameter[ids].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[mobilePaymentBillBizDate].parameters.parameter[type].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据类型" />
+            <lang locale="zh_HK" value="單據類型" />
+            <lang locale="zh_TW" value="單據類型" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[mobilePaymentBillBizDate].parameters.parameter[type].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[syncPayApply].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="同步付款申请单中间表" />
+            <lang locale="zh_HK" value="同步付款申請單中間表" />
+            <lang locale="zh_TW" value="同步付款申請單中間表" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[syncPayApply].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[syncPayApply].parameters.parameter[database].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="数据库" />
+            <lang locale="zh_HK" value="資料庫" />
+            <lang locale="zh_TW" value="資料庫" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[syncPayApply].parameters.parameter[database].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[syncPaymentBillFormOA].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="同步OA的付款单" />
+            <lang locale="zh_HK" value="同步OA的付款單" />
+            <lang locale="zh_TW" value="同步OA的付款單" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[syncPaymentBillFormOA].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[syncPaymentBillFormOA].parameters.parameter[database].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="数据库" />
+            <lang locale="zh_HK" value="資料庫" />
+            <lang locale="zh_TW" value="資料庫" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[syncPaymentBillFormOA].parameters.parameter[database].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[updateMidPayStatus].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="付款状态同步" />
+            <lang locale="zh_HK" value="付款狀態同步" />
+            <lang locale="zh_TW" value="付款狀態同步" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessFormOA].methods.method[updateMidPayStatus].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="付款状态同步" />
+            <lang locale="zh_HK" value="付款狀態同步" />
+            <lang locale="zh_TW" value="付款狀態同步" />
+        </rs>
+    </resource>
+</facade>
+

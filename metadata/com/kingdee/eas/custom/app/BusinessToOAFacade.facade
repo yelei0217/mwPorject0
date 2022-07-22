@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facade xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.app</package>
+    <name>BusinessToOAFacade</name>
+    <alias>facade[com.kingdee.eas.custom.app.BusinessToOAFacade].alias</alias>
+    <description>facade[com.kingdee.eas.custom.app.BusinessToOAFacade].description</description>
+    <userDefined>true</userDefined>
+    <bosType>2625436C</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.custom.BusinessToOAFacade</businessImplName>
+    <businessControllerName>com.kingdee.eas.custom.app.BusinessToOAFacadeController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>updateMaterialInfo</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.custom.app.BusinessToOAFacade].methods.method[updateMaterialInfo].alias</alias>
+            <description>facade[com.kingdee.eas.custom.app.BusinessToOAFacade].methods.method[updateMaterialInfo].description</description>
+            <innerID>a3d0bdf3-67d9-4dc8-ad4f-cb6dd4b7f4d5</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>mId</name>
+                    <alias>facade[com.kingdee.eas.custom.app.BusinessToOAFacade].methods.method[updateMaterialInfo].parameters.parameter[mId].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.app.BusinessToOAFacade].methods.method[updateMaterialInfo].parameters.parameter[mId].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>syncSupplyInfoAuto</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.custom.app.BusinessToOAFacade].methods.method[syncSupplyInfoAuto].alias</alias>
+            <description>facade[com.kingdee.eas.custom.app.BusinessToOAFacade].methods.method[syncSupplyInfoAuto].description</description>
+            <innerID>2edbcc94-6a12-4134-bbba-a03001bd758f</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>disableSupplyInfo</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.custom.app.BusinessToOAFacade].methods.method[disableSupplyInfo].alias</alias>
+            <description>facade[com.kingdee.eas.custom.app.BusinessToOAFacade].methods.method[disableSupplyInfo].description</description>
+            <innerID>52baecdc-fec6-4aeb-8aea-2fae104724fa</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>ids</name>
+                    <alias>facade[com.kingdee.eas.custom.app.BusinessToOAFacade].methods.method[disableSupplyInfo].parameters.parameter[ids].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.app.BusinessToOAFacade].methods.method[disableSupplyInfo].parameters.parameter[ids].description</description>
+                    <direction>in</direction>
+                    <dataType>java.util.List</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>ableSupplyInfo</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.custom.app.BusinessToOAFacade].methods.method[ableSupplyInfo].alias</alias>
+            <description>facade[com.kingdee.eas.custom.app.BusinessToOAFacade].methods.method[ableSupplyInfo].description</description>
+            <innerID>a51419c2-104f-4924-8ff5-dbfe4ff87286</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>ids</name>
+                    <alias>facade[com.kingdee.eas.custom.app.BusinessToOAFacade].methods.method[ableSupplyInfo].parameters.parameter[ids].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.app.BusinessToOAFacade].methods.method[ableSupplyInfo].parameters.parameter[ids].description</description>
+                    <direction>in</direction>
+                    <dataType>java.util.List</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <resource>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessToOAFacade].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="与OA业务处理功能" />
+            <lang locale="zh_HK" value="與OA業務處理功能" />
+            <lang locale="zh_TW" value="與OA業務處理功能" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessToOAFacade].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="与OA业务处理功能" />
+            <lang locale="zh_HK" value="與OA業務處理功能" />
+            <lang locale="zh_TW" value="與OA業務處理功能" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessToOAFacade].extendedProperty.genBusinessImplCode">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessToOAFacade].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessToOAFacade].methods.method[ableSupplyInfo].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="启用供货信息" />
+            <lang locale="zh_HK" value="啟用供貨信息" />
+            <lang locale="zh_TW" value="啟用供貨信息" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessToOAFacade].methods.method[ableSupplyInfo].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="启用供货信息" />
+            <lang locale="zh_HK" value="啟用供貨信息" />
+            <lang locale="zh_TW" value="啟用供貨信息" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessToOAFacade].methods.method[ableSupplyInfo].parameters.parameter[ids].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="ids" />
+            <lang locale="zh_HK" value="ids" />
+            <lang locale="zh_TW" value="ids" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessToOAFacade].methods.method[ableSupplyInfo].parameters.parameter[ids].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessToOAFacade].methods.method[disableSupplyInfo].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="禁用供货信息" />
+            <lang locale="zh_HK" value="禁用供貨信息" />
+            <lang locale="zh_TW" value="禁用供貨信息" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessToOAFacade].methods.method[disableSupplyInfo].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="禁用供货信息" />
+            <lang locale="zh_HK" value="禁用供貨信息" />
+            <lang locale="zh_TW" value="禁用供貨信息" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessToOAFacade].methods.method[disableSupplyInfo].parameters.parameter[ids].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="ids" />
+            <lang locale="zh_HK" value="ids" />
+            <lang locale="zh_TW" value="ids" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessToOAFacade].methods.method[disableSupplyInfo].parameters.parameter[ids].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessToOAFacade].methods.method[syncSupplyInfoAuto].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="自动同步供货清单信息" />
+            <lang locale="zh_HK" value="自動同步供貨清單信息" />
+            <lang locale="zh_TW" value="自動同步供貨清單信息" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessToOAFacade].methods.method[syncSupplyInfoAuto].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="自动同步供货清单信息" />
+            <lang locale="zh_HK" value="自動同步供貨清單信息" />
+            <lang locale="zh_TW" value="自動同步供貨清單信息" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessToOAFacade].methods.method[updateMaterialInfo].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="修改物料基本信息" />
+            <lang locale="zh_HK" value="修改物料基本信息" />
+            <lang locale="zh_TW" value="修改物料基本信息" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessToOAFacade].methods.method[updateMaterialInfo].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="修改物料基本信息" />
+            <lang locale="zh_HK" value="修改物料基本信息" />
+            <lang locale="zh_TW" value="修改物料基本信息" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessToOAFacade].methods.method[updateMaterialInfo].parameters.parameter[mId].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="物料ID" />
+            <lang locale="zh_HK" value="物料ID" />
+            <lang locale="zh_TW" value="物料ID" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.BusinessToOAFacade].methods.method[updateMaterialInfo].parameters.parameter[mId].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</facade>
+
