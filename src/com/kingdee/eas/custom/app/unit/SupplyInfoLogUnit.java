@@ -147,4 +147,27 @@ public class SupplyInfoLogUnit {
         }  
 	}
 	
+	public static String getComapnyTypeByNumber(Context ctx, String number) {
+		String type = "";
+		if ((number != null) && (!("".equals(number)))) {
+			if (number.toLowerCase().indexOf("mz") > 0)
+				type = "mz";
+			else if (number.toLowerCase().indexOf("gl") > 0)
+				type = "gl";
+			else if (number.toLowerCase().indexOf("cg") > 0)
+				type = "cg";
+			else if (number.toLowerCase().indexOf("px") > 0)
+				type = "px";
+			else if (number.toLowerCase().indexOf("jg") > 0)
+				type = "jg";
+			else if (number.toLowerCase().indexOf("mz") > 0)
+				type = "mz";
+			else if (number.toLowerCase().indexOf("yy") > 0)
+				type = "yy";
+			else if (number.toLowerCase().indexOf("zh") > 0)
+				type = "zh";
+		}
+		return type;
+	}
+	
 }
