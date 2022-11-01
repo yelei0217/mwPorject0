@@ -163,18 +163,24 @@ import org.apache.log4j.Logger;
              isPrcosess = AppUnit.isProcessMaterialByID(ctx, materialInfo.getId().toString()); 
            Suppliernum = entryOne.getAsstActNumber();
            Suppliername = entryOne.getAsstActName();
-           String querysql = "select fnumber,fopenbank,fbankaccount from eas_supplier_midtable where fnumber = '" + 
-             Suppliernum + "'";
-           List<Map<String, Object>> banklist = EAISynTemplate.query(
-               ctx, database, querysql);
-           if (banklist != null && banklist.size() > 0 && 
-             banklist.get(0) != null) {
-             Map bankMap = banklist.get(0);
-             Supplierbank = (bankMap.get("FOPENBANK") == null) ? "\\" : 
-               bankMap.get("FOPENBANK").toString();
-             Supplierbanknum = (bankMap.get("FBANKACCOUNT") == null) ? "\\" : 
-               bankMap.get("FBANKACCOUNT").toString();
-           } 
+           
+           Supplierbank = entryOne.getAccountBank();		//银行 取付款申请单上的 2022-09-01
+           Supplierbanknum= entryOne.getAccountBankNo();
+        
+//           String querysql = "select fnumber,fopenbank,fbankaccount from eas_supplier_midtable where fnumber = '" + 
+//             Suppliernum + "'";
+//           List<Map<String, Object>> banklist = EAISynTemplate.query(
+//               ctx, database, querysql);
+//           if (banklist != null && banklist.size() > 0 && 
+//             banklist.get(0) != null) {
+//             Map bankMap = banklist.get(0);
+//             Supplierbank = (bankMap.get("FOPENBANK") == null) ? "\\" : 
+//               bankMap.get("FOPENBANK").toString();
+//             Supplierbanknum = (bankMap.get("FBANKACCOUNT") == null) ? "\\" : 
+//               bankMap.get("FBANKACCOUNT").toString();
+//           } 
+      
+           
          } 
          String Usedate = "";
          UserInfo uInfo = UserFactory.getLocalInstance(ctx).getUserInfo(
@@ -1004,8 +1010,7 @@ import org.apache.log4j.Logger;
          ObjectUuidPK objectUuidPK = new ObjectUuidPK(map.get("ID").toString());
          try {
            PayRequestBillInfo info = ibiz.getPayRequestBillInfo((IObjectPK)objectUuidPK);
-           if (info != null && 
-             info.getBillStatus() != BillStatusEnum.AUDITED)
+           if (info != null && info.getBillStatus() == BillStatusEnum.SUBMITED)
              ibiz.audit((IObjectPK)objectUuidPK); 
          } catch (EASBizException e) {
            e.printStackTrace();

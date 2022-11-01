@@ -97,26 +97,25 @@ public class SupplyInfoLogUnit {
 	} 
 	
 	public static void requestOAInterface(Map mp) {
-        // 登陆 Url  
-        String loginUrl = "http://oa.meiweigroup.com:8001/seeyon/main.do?method=login";  
-        // 需登陆后访问的 Url  
-        String dataUrl = "http://oa.meiweigroup.com:8001/seeyon/lolkk/thirdUrlController.do?method=syncSupplierInfo";  
-        HttpClient httpClient = new HttpClient();  
-        // 模拟登陆，按实际服务器端要求选用 Post 或 Get 请求方式  
-        PostMethod postMethod = new PostMethod(loginUrl);  
-        // 设置登陆时要求的信息，用户名和密码  
-        NameValuePair[] data = { new NameValuePair("login_username", "bd3"), new NameValuePair("login_password", "meiwei2020") };  
-         
-//        
 //        // 登陆 Url  
-//        String loginUrl = "http://43.254.45.43:8080/seeyon/main.do?method=login";  
+//        String loginUrl = "http://oa.meiweigroup.com:8001/seeyon/main.do?method=login";  
 //        // 需登陆后访问的 Url  
-//        String dataUrl = "http://43.254.45.43:8080/seeyon/lolkk/thirdUrlController.do?method=syncSupplierInfo";  
+//        String dataUrl = "http://oa.meiweigroup.com:8001/seeyon/lolkk/thirdUrlController.do?method=syncSupplierInfo";  
 //        HttpClient httpClient = new HttpClient();  
 //        // 模拟登陆，按实际服务器端要求选用 Post 或 Get 请求方式  
 //        PostMethod postMethod = new PostMethod(loginUrl);  
 //        // 设置登陆时要求的信息，用户名和密码  
-//        NameValuePair[] data = { new NameValuePair("login_username", "dengchangchi"), new NameValuePair("login_password", "111111") };  
+//        NameValuePair[] data = { new NameValuePair("login_username", "bd3"), new NameValuePair("login_password", "meiwei2020") };  
+         
+	       // 登陆 Url  
+        String loginUrl = "http://106.14.41.41:8002/seeyon/main.do?method=login";  
+        // 需登陆后访问的 Url  
+        String dataUrl = "http://106.14.41.41:8002/seeyon/lolkk/thirdUrlController.do?method=syncSupplierMaterial";  
+        HttpClient httpClient = new HttpClient();  
+        // 模拟登陆，按实际服务器端要求选用 Post 或 Get 请求方式  
+        PostMethod postMethod = new PostMethod(loginUrl);  
+        // 设置登陆时要求的信息，用户名和密码  
+        NameValuePair[] data = { new NameValuePair("login_username", "hongyachao"), new NameValuePair("login_password", "123456") };  
         
         postMethod.setRequestBody(data);  
         try {  
